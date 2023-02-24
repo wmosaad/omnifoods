@@ -1,0 +1,63 @@
+html{
+    color: #7A6167;
+}
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    margin: 20px 0;
+    text-align: center;
+    color: #7A6167;
+    text-transform: uppercase;
+    font-size: 40px !important;
+}
+
+hr{
+    width: 100px;
+    margin: 20px auto;
+    color: #E67E22;
+    border: solid 2px #E67E22;
+}
+
+h3{
+    color: #7A6167;
+    text-transform: uppercase;
+    font-weight: lighter !important;
+}
+
+.fav-meals img{
+    transition: 1s;
+}
+
+.fav-meals img:hover{
+    opacity: 100% !important;
+}
+
+#howit-works i{
+    border: solid 2px orange;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.testimonials{
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#howit-works, #pricing-plans{
+    background-color: #F4F4F4;
+}
+
+.null{
+    color: #F8F8F8;
+}
+
+footer a:hover{
+    color: white !important;
+}
